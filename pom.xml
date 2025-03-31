@@ -22,12 +22,20 @@
             <version>8.0.33</version>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- Google Protobuf -->
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.25.3</version> <!-- Hoặc phiên bản mới nhất -->
+            <version>3.25.3</version>
         </dependency>
 
+        <!-- Apache Commons DbUtils -->
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.7</version>
+        </dependency>
 
     </dependencies>
 
